@@ -1,0 +1,19 @@
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 2rem auto;
+}
+
+.links a {
+  color: white;
+  margin-right: 3rem;
+  transition: 200ms border ease-out;
+  border-bottom: 1px solid black;
+  font-size: 0.9rem;
+}
+
+.links a:hover {
+  border-bottom: 1px solid white;
+}
