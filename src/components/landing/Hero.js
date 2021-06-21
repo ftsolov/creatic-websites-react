@@ -1,17 +1,20 @@
 import Button from '../Button.js'
+import './Hero.css'
 
 const Hero = () => {
   return (
-    <div>
-      <div>
+    <div className={"hero"}>
+      <div className={"hero-left"}>
         <h1>Wir entwickeln Website
-          mit style, klipp & klar!</h1>
-        <h2>Deine Seite, Dein Style, Dein Preis.</h2>
-        <Button value={"Get started ->"} class={"primary"} href={"#"}/>
-        <Button value={"How it works"} class={"secondary"} href={"#"}/>
+          mit <span style={{color: "var(--green)"}}>style, klipp & klar!</span></h1>
+        <h3>Deine Seite, Dein Style, Dein Preis.</h3>
+        <div className={"hero-buttons"}>
+          <Button value={"Get started ->"} class={"primary"} href={"#"}/>
+          <Button value={"How it works"} class={"secondary"} href={"#"}/>
+        </div>
       </div>
-      <div>
-        <img src="" alt="" />
+      <div className={"hero-right"}>
+        <img src="hero-illustration.svg" alt="" />
       </div>
     </div>
   );

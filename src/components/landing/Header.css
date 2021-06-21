@@ -6,12 +6,17 @@
   margin: 3rem auto;
 }
 
+.links {
+  margin-left: 5rem;
+}
+
 .links a {
   color: white;
   margin-right: 3rem;
   transition: 200ms border ease-out;
   border-bottom: 1px solid black;
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .links a:last-of-type {

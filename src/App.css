@@ -29,7 +29,7 @@ body {
   max-width: 1200px;
   background: black;
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
 }
 
 /*TEXT*/
@@ -41,28 +41,32 @@ h1 {
 }
 
 h2 {
-  color: var(--light-grey);
-  font-weight: 400;
-  font-size: 1.1rem;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.7rem;
 }
 
 h3 {
-
+  color: var(--light-grey);
+  font-weight: 400;
+  font-size: 1.3rem;
 }
 
 p {
-
+  font-size: 1rem;
+  color: var(--light-grey);
 }
 
 /*BUTTONS*/
 
 .button {
-  padding: 1rem 1.3rem;
+  padding: 1.3rem 2rem;
   border-radius: 90px;
   font-size: 1.1rem;
   transition: 200ms all ease-out;
   display: inline-block;
   font-weight: 700;
+  width: fit-content;
 }
 
 .primary {

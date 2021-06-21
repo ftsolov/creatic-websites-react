@@ -1,0 +1,47 @@
+.steps-section {
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 1rem 0 2rem;
+  /*flex-wrap: wrap;*/
+}
+
+.step {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32%;
+  margin-right: 2rem;
+  background-color: var(--background-grey);
+  border-radius: 1.3rem;
+  padding: 2rem;
+  justify-content: center;
+  transition: 300ms transform ease-out;
+}
+
+.step:hover {
+  transform: scale(1.02)
+}
+
+.step:last-of-type {
+  margin-right: 0;
+}
+
+.step h2 {
+  margin-bottom: 0.6rem;
+}
+
+.step p {
+  color: var(--light-grey);
+  line-height: 1.6;
+}

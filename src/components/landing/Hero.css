@@ -1,16 +1,42 @@
-*, *::before, *::after {
-  box-sizing: border-box;
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
-a {
-  text-decoration: none;
+.hero-right {
+  width: 40%;
 }
 
-img {
-  max-width: 100%
+.hero-right img {
+  animation: MoveUpDown 3s ease-in-out infinite;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-left h1 {
+  margin: 0 0 1rem;
+}
+
+.hero-left h3 {
+  margin: 0 0 2rem;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
 }
