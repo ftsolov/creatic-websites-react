@@ -1,9 +1,9 @@
 .header {
-  width: 80%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin: 2rem auto;
+  align-items: center;
+  margin: 3rem auto;
 }
 
 .links a {
@@ -11,7 +11,11 @@
   margin-right: 3rem;
   transition: 200ms border ease-out;
   border-bottom: 1px solid black;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+}
+
+.links a:last-of-type {
+  margin-right: 0;
 }
 
 .links a:hover {

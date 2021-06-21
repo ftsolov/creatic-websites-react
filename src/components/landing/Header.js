@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={"header"}>
       <div>
-        <img src="" alt="Logo" className={"logo"}/>
+        <img src="logo.svg" alt="Logo" className={"logo"}/>
       </div>
       <div className={"links"}>
         <a href="#">About us</a>
@@ -14,9 +14,8 @@ const Header = () => {
         <a href="#">Contact</a>
       </div>
       <div>
-        <Button value={"Test"} class={"button primary"} href={"#"} />
-        <a href="#" className={"button secondary"}>Login</a>
-        <a href="#" className={"button primary"}>Sign Up</a>
+        <Button value={"Login"} class={"secondary"} style={{marginRight: 1 + 'rem'}} href={"#"} />
+        <Button value={"Sign Up"} class={"primary"} href={"#"} />
       </div>
     </div>
   );

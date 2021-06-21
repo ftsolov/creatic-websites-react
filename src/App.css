@@ -1,8 +1,8 @@
 :root {
   --green: #27FA05;
-  --background-grey: #070707;
+  --background-grey: #0a0a0a;
   --white: #FFF;
-  --light-grey: #979797, 100%;
+  --light-grey: #979797;
   --black: #000000;
 }
 
@@ -29,6 +29,29 @@ body {
   max-width: 1200px;
   background: black;
   margin: 0 auto;
+  width: 90%;
+}
+
+/*TEXT*/
+
+h1 {
+  color: white;
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--light-grey);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+h3 {
+
+}
+
+p {
+
 }
 
 /*BUTTONS*/
@@ -36,8 +59,22 @@ body {
 .button {
   padding: 1rem 1.3rem;
   border-radius: 90px;
+  font-size: 1.1rem;
+  transition: 200ms all ease-out;
+  display: inline-block;
+  font-weight: 700;
 }
 
 .primary {
   background-color: var(--green);
+  color: var(--black);
+}
+
+.secondary {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.secondary:hover {
+  background-color: var(--background-grey);
 }
