@@ -57,28 +57,12 @@ p {
   color: var(--light-grey);
 }
 
-/*BUTTONS*/
-
-.button {
-  padding: 1.3rem 2rem;
-  border-radius: 90px;
-  font-size: 1.1rem;
-  transition: 200ms all ease-out;
-  display: inline-block;
-  font-weight: 700;
-  width: fit-content;
+.mr {
+  margin-right: 1rem;
 }
 
-.primary {
-  background-color: var(--green);
-  color: var(--black);
-}
-
-.secondary {
-  background-color: var(--black);
-  color: var(--white);
-}
-
-.secondary:hover {
-  background-color: var(--background-grey);
+@media only screen and (max-width: 450px) {
+  .mr {
+    margin-right: 0;
+  }
 }

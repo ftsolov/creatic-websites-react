@@ -3,11 +3,11 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  margin: 3rem auto;
+  margin: 2.5rem auto;
 }
 
 .links {
-  margin-left: 5rem;
+  /*margin-left: 5rem;*/
 }
 
 .links a {
@@ -25,4 +25,8 @@
 
 .links a:hover {
   border-bottom: 1px solid white;
+}
+
+.logo {
+  margin-right: 15%;
 }

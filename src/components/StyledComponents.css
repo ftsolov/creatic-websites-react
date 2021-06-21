@@ -1,0 +1,70 @@
+/*BUTTONS*/
+
+.button {
+  padding: 1.3rem 2rem;
+  border-radius: 90px;
+  font-size: 1.1rem;
+  transition: 200ms all ease-out;
+  display: inline-block;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.mr {
+  margin-right: 1rem;
+}
+
+.primary {
+  background-color: var(--green);
+  color: var(--black);
+}
+
+.secondary {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.secondary:hover {
+  background-color: var(--background-grey);
+}
+
+/*Heading Component*/
+
+.heading-container h1 {
+  margin-bottom: 0.5rem;
+}
+
+.heading-container h3 {
+  margin-top: 0;
+}
+
+/*Email component*/
+
+.email {
+  display: flex;
+  background-color: var(--background-grey);
+  border-radius: 80px;
+  padding: 0.3rem 2rem;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.email:hover {
+  cursor: pointer;
+}
+
+.email h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.email h2:last-of-type {
+  color: var(--green);
+  margin-left: 2rem;
+  font-weight: 700;
+}

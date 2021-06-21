@@ -26,11 +26,12 @@
   border-radius: 1.3rem;
   padding: 2rem;
   justify-content: center;
+  min-height: 20rem;
   transition: 300ms transform ease-out;
 }
 
 .step:hover {
-  transform: scale(1.02)
+  transform: scale(1.01)
 }
 
 .step:last-of-type {
