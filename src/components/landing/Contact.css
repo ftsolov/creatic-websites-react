@@ -9,3 +9,10 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 450px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}

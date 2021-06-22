@@ -31,6 +31,7 @@
 
 .hero-left h3 {
   margin: 0 0 2rem;
+  line-height: 1.6;
 }
 
 @keyframes MoveUpDown {
@@ -49,6 +50,7 @@
 @media only screen and (max-width: 450px) {
   .hero {
     flex-direction: column;
+    margin-top: 3rem;
   }
 
   .hero-buttons {
@@ -66,7 +68,7 @@
   }
 
   .hero-left h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .hero-right {

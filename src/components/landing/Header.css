@@ -30,3 +30,58 @@
 .logo {
   margin-right: 15%;
 }
+
+/*BURGER MENU ICON*/
+
+/*BURGER ICON*/
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#burger-icon {
+  display: none;
+  transform: scale(0.8);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  margin: 7px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+@media only screen and (max-width: 450px) {
+  #burger-icon {
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .buttons {
+    display: none;
+  }
+}

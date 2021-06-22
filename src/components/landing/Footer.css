@@ -44,3 +44,9 @@
 .footer-3 {
   margin-right: 0;
 }
+
+@media only screen and (max-width: 450px) {
+  .footer {
+    flex-direction: column;
+  }
+}

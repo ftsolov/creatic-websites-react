@@ -50,6 +50,10 @@
 
 .card-two {
   border: 1px solid var(--green);
+  width: 110%;
+  box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.3);
+  -webkit-box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.3);
+  -moz-box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.3);
 }
 
 .card-three {
@@ -74,7 +78,7 @@
 }
 
 .ribbon {
-  font: bold 15px sans-serif;
+  font: bold 0.7rem sans-serif;
   text-align: center;
   -webkit-transform: rotate(45deg);
   -moz-transform:    rotate(45deg);
@@ -86,5 +90,21 @@
   right: 7px;
   width: 125px;
   background-color: var(--green);
-  color: #fff;
+  color: #000;
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+  .pricing-card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .pricing-card {
+    margin-right: 0;
+  }
 }

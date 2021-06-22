@@ -12,10 +12,7 @@
 
 .button:hover {
   cursor: pointer;
-}
-
-.mr {
-  margin-right: 1rem;
+  transform: translateY(-2px);
 }
 
 .primary {
@@ -67,4 +64,22 @@
   color: var(--green);
   margin-left: 2rem;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 450px) {
+  .heading-container {
+    text-align: center;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .email h2 {
+    font-size: 1rem;
+  }
+
+  .email h2:last-of-type {
+    display: none;
+  }
 }

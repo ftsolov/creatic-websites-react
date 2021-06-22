@@ -46,3 +46,24 @@
   color: var(--light-grey);
   line-height: 1.6;
 }
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .steps-section {
+    text-align: center;
+  }
+
+  .step {
+    width: 100%;
+    margin-right: 0;
+  }
+}
