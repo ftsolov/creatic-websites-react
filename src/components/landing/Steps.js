@@ -3,7 +3,7 @@ import './Steps.css'
 
 const Steps = () => {
   return (
-    <div className={"steps-section"}>
+    <div className={"steps-section"} id={"steps"}>
       <h1>How does it work?</h1>
       <div className={"steps"}>
         <div className="step">

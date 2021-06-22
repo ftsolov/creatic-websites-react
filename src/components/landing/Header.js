@@ -8,7 +8,7 @@ const Header = () => {
         <img src="logo.svg" alt="Logo" />
       </div>
       <div className={"links"}>
-        <a href="#">About us</a>
+        <a href="#steps">How it works</a>
         <a href="#pricing">Pricing</a>
         <a href="#contact">Contact</a>
       </div>
