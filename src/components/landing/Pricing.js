@@ -3,7 +3,7 @@ import HeadingComponent from "../HeadingComponent";
 
 const Pricing = () => {
   return (
-    <div>
+    <div id={"pricing"}>
       <HeadingComponent title={"Pricing"} description={"Which price plan fits you best?"} />
       <div>
         <div className="pricing-card">
