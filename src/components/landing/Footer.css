@@ -1,8 +1,7 @@
-/*FOOTER*/
 
 .footer-container {
-  padding: 6rem 0 3rem;
   width: 100%;
+  margin: 8rem 0 4rem;
 }
 
 .footer {
@@ -17,7 +16,7 @@
 .footer-heading {
   display: flex;
   flex-direction: column;
-  margin-right: 10rem;
+  /*margin-right: 10rem;*/
 }
 
 .footer-heading h2 {
