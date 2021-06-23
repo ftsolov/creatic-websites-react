@@ -4,7 +4,7 @@ import './Steps.css'
 const Steps = () => {
   return (
     <div className={"steps-section"} id={"steps"}>
-      <h1>How does it work?</h1>
+      <h1>How does it <span style={{color: "var(--green)"}}>work?</span></h1>
       <div className={"steps"}>
         <div className="step">
           <h2>Select what you want.</h2>

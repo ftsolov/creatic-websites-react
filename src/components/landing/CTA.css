@@ -1,16 +1,52 @@
-*, *::before, *::after {
-  box-sizing: border-box;
+.cta {
+  display: flex;
+  align-items: stretch;
+  background-color: var(--background-grey);
+  border-radius: 1.5rem;
+  margin: 7rem auto 0;
+  overflow: hidden;
+  position: relative;
 }
 
-html, body {
+.cta h1 {
+  max-width: 10ch;
   margin: 0;
-  padding: 0;
 }
 
-a {
-  text-decoration: none;
+.cta p {
+  max-width: 40ch;
+  line-height: 1.8;
+  margin: 0.5rem 0 1.7rem;
 }
 
-img {
-  max-width: 100%
+.left-cta {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-cta {
+  background-color: var(--green);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 45%;
+  box-shadow: 1px -1px 93px -9px rgba(39, 245, 7, 0.5);
+  -webkit-box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.5);
+  -moz-box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.5);
+  clip-path: polygon(21% 0, 100% 0, 100% 100%, 5% 100%);
+}
+
+.right-cta img {
+  width: 90%;
+}
+
+.shapes {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  height: 70%;
+  z-index: 100;
 }

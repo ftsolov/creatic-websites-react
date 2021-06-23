@@ -5,6 +5,7 @@ import Steps from './components/landing/Steps.js'
 import Pricing from './components/landing/Pricing.js'
 import Contact from './components/landing/Contact.js'
 import Footer from './components/landing/Footer.js'
+import CTA from "./components/landing/CTA";
 
 function Landing() {
   return (
@@ -13,6 +14,7 @@ function Landing() {
       <Hero />
       <Steps />
       <Pricing />
+      <CTA />
       <Contact />
       <Footer />
     </div>
