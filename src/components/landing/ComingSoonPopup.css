@@ -7,6 +7,7 @@
   z-index: 300;
   backdrop-filter: blur(5px);
   background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 
 .modal-main {
@@ -47,10 +48,10 @@
   width: 50%;
 }
 
-.display-block {
-  display: block;
-}
 
-.display-none {
-  display: none;
+@media only screen and (max-width: 450px) {
+  .modal-main {
+    width: 90%;
+    padding: 2rem;
+  }
 }

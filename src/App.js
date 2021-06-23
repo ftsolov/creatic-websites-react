@@ -15,10 +15,14 @@ function App() {
 
   const handleClick = () => {
     setModalVisible(true)
+    document.body.style.overflow = "hidden"
+    document.body.style.height = "100%"
   }
 
   const handleClose = () => {
     setModalVisible(!modalVisible)
+    document.body.style.overflow = "auto"
+    document.body.style.height = "auto"
   }
 
   return (
