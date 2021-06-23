@@ -1,7 +1,7 @@
 import Button from "../Button.js";
 import './Steps.css'
 
-const Steps = () => {
+const Steps = (props) => {
   return (
     <div className={"steps-section"} id={"steps"}>
       <h1>How does it <span style={{color: "var(--green)"}}>work?</span></h1>
@@ -19,7 +19,7 @@ const Steps = () => {
           <p>Give us a few days to create your website, and when we are ready it will be in your mailbox.</p>
         </div>
       </div>
-      <Button value={"Build your website ->"} class={"primary"} href={"#"} />
+      <Button value={"Build your website ->"} class={"primary"} onClick={props.handleClick}/>
     </div>
   );
 };

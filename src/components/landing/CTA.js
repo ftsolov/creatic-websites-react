@@ -1,7 +1,7 @@
 import Button from "../Button";
 import './CTA.css'
 
-const CTA = () => {
+const CTA = (props) => {
   return (
     <div className={"cta"}>
       <div className={"left-cta"}>
@@ -10,7 +10,7 @@ const CTA = () => {
           Start building the website of your dreams right away and check out all
           of the features that we offer.
         </p>
-        <Button value={"Get started ->"} class={"primary"} />
+        <Button value={"Get started ->"} class={"primary"} onClick={props.handleClick} />
       </div>
       <div className={"right-cta"}>
       </div>
