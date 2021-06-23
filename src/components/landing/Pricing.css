@@ -50,7 +50,7 @@
 
 .card-two {
   border: 1px solid var(--green);
-  width: 110%;
+  /*width: 110%;*/
   box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.3);
   -webkit-box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.3);
   -moz-box-shadow: 1px -1px 93px -9px rgba(39,250,5,0.3);

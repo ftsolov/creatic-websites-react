@@ -49,4 +49,8 @@
   .footer {
     flex-direction: column;
   }
+
+  .footer-container {
+    margin: 8rem 0 1.5rem;
+  }
 }

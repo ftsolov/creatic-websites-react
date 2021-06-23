@@ -8,6 +8,8 @@
   display: inline-block;
   font-weight: 700;
   width: fit-content;
+  white-space: nowrap;
+  height: fit-content;
 }
 
 .button:hover {
@@ -71,8 +73,13 @@
     text-align: center;
   }
 
+  .button {
+    min-width: 70%;
+  }
+
   .email {
-    width: 100%;
+    width: 90%;
+    justify-content: center;
   }
 
   .email h2 {

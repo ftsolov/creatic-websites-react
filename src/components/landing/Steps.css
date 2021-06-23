@@ -62,6 +62,10 @@
     text-align: center;
   }
 
+  .steps-section h1 {
+    max-width: 60%;
+  }
+
   .step {
     width: 100%;
     margin-right: 0;

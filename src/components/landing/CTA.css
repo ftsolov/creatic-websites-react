@@ -50,3 +50,44 @@
   height: 70%;
   z-index: 100;
 }
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+  .cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-cta {
+    padding: 1.5rem 3rem 3rem;
+    text-align: center;
+    align-items: center;
+    order: 1;
+  }
+
+  .left-cta h1 {
+    margin-bottom: 0.7rem;
+  }
+
+  .right-cta {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 10rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    clip-path: none;
+  }
+
+  .shapes {
+    display: block;
+    position: static;
+    width: 75%;
+    order: 0;
+    margin-top: 2.5rem;
+  }
+}
