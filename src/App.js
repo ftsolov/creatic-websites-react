@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react'
-import Header from './components/landing/Header.js'
+import HeaderComponent from './components/landing/HeaderComponent.js'
 import Hero from './components/landing/Hero.js'
 import Steps from './components/landing/Steps.js'
 import Pricing from './components/landing/Pricing.js'
@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       {modalVisible ? <ComingSoonPopup handleClose={handleClose}/> : null}
-      <Header handleClick={handleClick} />
+      <HeaderComponent handleClick={handleClick} />
       <Hero handleClick={handleClick} />
       <Steps handleClick={handleClick} />
       <Pricing />
