@@ -45,7 +45,9 @@
 }
 
 @media only screen and (max-width: 900px) {
-
+  .hero {
+    margin: 11rem auto 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {

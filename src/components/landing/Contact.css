@@ -10,6 +10,14 @@
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 900px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .contact {
     flex-direction: column;
