@@ -100,7 +100,10 @@
 
 .navbar {
   display: none;
+  /*height: calc(100vh - 108px);*/
   height: 100vh;
+  position: fixed;
+  top: 107px;
   width: 100%;
   background-color: var(--background-grey);
 }
@@ -182,5 +185,9 @@
   .header-mobile {
     top: 0;
     left: 0;
+  }
+
+  .navbar {
+    top: 96px;
   }
 }

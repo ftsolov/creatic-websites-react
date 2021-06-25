@@ -4,7 +4,6 @@ import React from "react";
 
 const toggleNavMenu = (e) => {
   if (e.target.id === "burger-icon") {
-    console.log("poop");
     e.target.classList.toggle("change");
     if (e.target.classList.contains("change")) {
       document.body.style.overflow = "hidden";
@@ -19,26 +18,19 @@ const toggleNavMenu = (e) => {
       document.body.style.overflow = "auto";
     }
   }
-  if (document.getElementById("header-mobile").style.position === "static") {
-    document.getElementById("header-mobile").style.position = "fixed";
-  } else {
-    document.getElementById("header-mobile").style.position = "static";
-  }
+  // if (document.getElementById("header-mobile").style.position === "static") {
+  //   document.getElementById("header-mobile").style.position = "fixed";
+  // } else {
+  //   document.getElementById("header-mobile").style.position = "static";
+  // }
   document.getElementById("navbar").classList.toggle("navbar-visible");
 };
 
-/*Position navbar links*/
-// const setHeaderHeight = (headerHeight) => {
-//   const el = document.getElementById("navbar");
-//   el.style.marginTop = headerHeight + "px";
-// };
-//
-// window.addEventListener("load", function () {
-//   const headerHeight = document.getElementById("header-mobile").offsetHeight;
-//   setHeaderHeight(headerHeight);
-// });
-
-/*--------------------------*/
+const handleLinkClick = () => {
+  document.body.style.overflow = "auto";
+  document.getElementById("burger-icon").classList.toggle("change")
+  document.getElementById("navbar").classList.toggle("navbar-visible");
+}
 
 const HeaderMobile = (props) => {
   return (
@@ -59,7 +51,7 @@ const HeaderMobile = (props) => {
           </div>
         </div>
         <div className="navbar" id="navbar">
-          <div className={"links-mobile"}>
+          <div className={"links-mobile"} onClick={(event) => handleLinkClick()}>
             <a href="#steps">How it works</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
