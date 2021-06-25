@@ -28,11 +28,11 @@ function App() {
   return (
     <div className="App">
       {modalVisible ? <ComingSoonPopup handleClose={handleClose}/> : null}
-      <Header />
-      <Hero handleClick={handleClick}/>
-      <Steps handleClick={handleClick}/>
+      <Header handleClick={handleClick} />
+      <Hero handleClick={handleClick} />
+      <Steps handleClick={handleClick} />
       <Pricing />
-      <CTA handleClick={handleClick}/>
+      <CTA handleClick={handleClick} />
       <Contact />
       <Footer />
     </div>

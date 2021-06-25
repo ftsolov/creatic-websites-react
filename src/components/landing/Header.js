@@ -11,7 +11,7 @@ const toggleBurgerMenu = (x) => {
   }
 }
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className={"header"}>
       <div className={"logo"}>
@@ -23,8 +23,8 @@ const Header = () => {
         <a href="#contact">Contact</a>
       </div>
       <div className={"buttons"}>
-        <Button value={"Login"} class={"secondary mr"} href={"#"} />
-        <Button value={"Sign Up"} class={"primary"} href={"#"} />
+        <Button value={"Login"} class={"secondary mr"} href={"#"} onClick={props.handleClick}/>
+        <Button value={"Sign Up"} class={"primary"} href={"#"} onClick={props.handleClick}/>
       </div>
       <div className="container" id="burger-icon" onClick="toggleBurgerMenu(this)">
         <div className="bar1"/>

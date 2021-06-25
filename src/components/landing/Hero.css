@@ -47,7 +47,7 @@
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .hero {
     flex-direction: column;
     margin-top: 3rem;
@@ -65,7 +65,7 @@
   .hero-left {
     width: 100%;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 11rem;
   }
 
   .hero-left h1 {
@@ -73,9 +73,9 @@
   }
 
   .hero-right {
-    width: 70%;
+    width: 75%;
     position: absolute;
-    top: 7rem;
+    top: 8rem;
     z-index: -10;
   }
 }
