@@ -1,5 +1,4 @@
 import "./Header.css";
-import Button from "../Button.js";
 import React, { useEffect, useState } from "react";
 import HeaderMobile from "./HeaderMobile";
 import HeaderDesktop from "./HeaderDesktop";
@@ -20,9 +19,9 @@ const HeaderComponent = (props) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isMobile = windowDimension <= 950;
+  const isMobile = windowDimension <= 900;
 
-  return isMobile ? <HeaderMobile /> : <HeaderDesktop />;
+  return isMobile ? <HeaderMobile handleClick={props.handleClick}/> : <HeaderDesktop handleClick={props.handleClick}/>;
 };
 
 export default HeaderComponent;
