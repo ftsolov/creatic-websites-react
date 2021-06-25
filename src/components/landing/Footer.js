@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer-container w-container">
+    <footer className="footer-container margin">
       <div className="footer">
         <div>
           <p>Creatic Website</p>

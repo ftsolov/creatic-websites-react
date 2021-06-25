@@ -3,7 +3,7 @@ import './Steps.css'
 
 const Steps = (props) => {
   return (
-    <div className={"steps-section"} id={"steps"}>
+    <div className={"steps-section margin"} id={"steps"}>
       <h1>How does it <span style={{color: "var(--green)"}}>work?</span></h1>
       <div className={"steps"}>
         <div className="step">

@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 .hero-left {
@@ -65,7 +66,7 @@
   .hero-left {
     width: 100%;
     text-align: center;
-    margin-top: 11rem;
+    margin-top: 12rem;
   }
 
   .hero-left h1 {
@@ -75,7 +76,7 @@
   .hero-right {
     width: 75%;
     position: absolute;
-    top: 8rem;
+    top: 9rem;
     z-index: -10;
   }
 }

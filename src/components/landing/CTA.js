@@ -3,7 +3,7 @@ import './CTA.css'
 
 const CTA = (props) => {
   return (
-    <div className={"cta"}>
+    <div className={"cta margin"}>
       <div className={"left-cta"}>
         <h1>What are you waiting for?</h1>
         <p>

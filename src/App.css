@@ -30,8 +30,11 @@ body {
   max-width: 1200px;
   background: black;
   margin: 0 auto;
-  width: 80%;
 }
+
+/*.App > div {*/
+/*  padding: 0 10%;*/
+/*}*/
 
 /*TEXT*/
 
@@ -62,10 +65,13 @@ p {
   margin-right: 1rem;
 }
 
+.margin {
+  width: 90% !important;
+  /*margin: auto !important;*/
+}
+
 @media only screen and (max-width: 900px) {
-  body {
-    width: 90%;
-  }
+
 }
 
 @media only screen and (max-width: 500px) {

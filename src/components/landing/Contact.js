@@ -4,7 +4,7 @@ import ContactEmail from "./ContactEmail";
 
 const Contact = () => {
   return (
-    <div className={"contact"} id={"contact"}>
+    <div className={"contact margin"} id={"contact"}>
       <HeadingComponent title={"Got a question?"} description={"Get in touch with us."} />
       <ContactEmail />
     </div>

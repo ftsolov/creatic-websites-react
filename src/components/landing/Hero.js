@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = (props) => {
   return (
-    <div className={"hero"}>
+    <div className={"hero margin"}>
       <div className={"hero-left"}>
         <h1>Wir entwickeln Website
           mit <span style={{color: "var(--green)"}}>style, klipp & klar!</span></h1>
