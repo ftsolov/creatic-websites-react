@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/creatic-websites-react/static/css/main.3e368a79.chunk.css",
+    "main.js": "/creatic-websites-react/static/js/main.d9d0bfe7.chunk.js",
+    "main.js.map": "/creatic-websites-react/static/js/main.d9d0bfe7.chunk.js.map",
+    "runtime-main.js": "/creatic-websites-react/static/js/runtime-main.a4a72ef2.js",
+    "runtime-main.js.map": "/creatic-websites-react/static/js/runtime-main.a4a72ef2.js.map",
+    "static/js/2.fcf89cb7.chunk.js": "/creatic-websites-react/static/js/2.fcf89cb7.chunk.js",
+    "static/js/2.fcf89cb7.chunk.js.map": "/creatic-websites-react/static/js/2.fcf89cb7.chunk.js.map",
+    "index.html": "/creatic-websites-react/index.html",
+    "static/css/main.3e368a79.chunk.css.map": "/creatic-websites-react/static/css/main.3e368a79.chunk.css.map",
+    "static/js/2.fcf89cb7.chunk.js.LICENSE.txt": "/creatic-websites-react/static/js/2.fcf89cb7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4a72ef2.js",
+    "static/js/2.fcf89cb7.chunk.js",
+    "static/css/main.3e368a79.chunk.css",
+    "static/js/main.d9d0bfe7.chunk.js"
+  ]
+}
